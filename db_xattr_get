@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#   chmod +x db_xattr_get
+#   chmod +x db_xattr_empty
+#   chmod +x db_xattr_set
+
+#   ./db_xattr_get
+#   ./db_xattr_empty
+#   ./db_xattr_set
+
+#   ls -l@
+
+#   new project: get, set
+#     copy get, empty, set into empty directory
+#     run chmod for each
+#     run get, set, get
+#   existing project
+#     copy get, empty, set into directory
+#     run chmod for each
+#     run get, empty, set, get
+#     run "npm install"
+
+#   to restart dropbox
+#       osascript -e 'tell application "Dropbox" to quit'   (OR)    killall Dropbox
+#       open -a "Dropbox"
+
+echo "=== .idea ==="
+xattr .idea
+echo "=== .git ==="
+xattr .git
+echo "=== node_modules ==="
+xattr node_modules
