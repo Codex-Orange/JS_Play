@@ -1,8 +1,8 @@
 # LocalFirstage
 
-### An offline-first database API that is compatible with the localForage API.
+### An offline-first database with an API that is compatible with the localForage API.
 
-Useful for working offline. Also useful if you often want to do a full text search of your database.
+Useful for working offline. It is also useful if you often want to do a full text search of your database.
 
 Only once, create a local class for each type of database,  and a remote class for each type of database. Import these classes into your code.
 ```
