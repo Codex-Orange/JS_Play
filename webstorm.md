@@ -33,3 +33,7 @@
   osascript -e 'tell application "Dropbox" to quit'
   open -a "Dropbox"
   ```
+  
+### git
+fetch, merge
+commit, push
